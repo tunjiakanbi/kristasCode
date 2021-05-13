@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!------- Stylesheets ------->
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="https://use.typekit.net/kzz4wgg.css" />
+
+<title>Classic Cocktails</title>
+</head>
+<body>
+    <div class="app">
+        <!--------- NAVIGATION STARTS HERE-------->
+
+        <div class="header-bkgd"></div>
+        <header class="header-ctnt">
+            <span>
+                <a class="magnifyingGlass" href="/pages/search.html"><img id="search" src="/images/search_white_24dp.svg" height="30" alt="search icon"/></a>
+                <img class="magnifyingGlass" id="menu-btn" src="/images/menu_white_24dp.svg" width="30" alt="menu icon"/>
+            </span>
+            <h1>Classic Cocktails</h1>
+        </header>
+        <nav id="nav">
+            <svg viewBox="0 0 24 24" id="exit-btn" class="exit">
+                <path id="exit" fill="#fff" d="M14.8,12l3.6-3.6c0.8-0.8,0.8-2,0-2.8c-0.8-0.8-2-0.8-2.8,0L12,9.2L8.4,5.6c-0.8-0.8-2-0.8-2.8,0 c-0.8,0.8-0.8,2,0,2.8L9.2,12l-3.6,3.6c-0.8,0.8-0.8,2,0,2.8C6,18.8,6.5,19,7,19s1-0.2,1.4-0.6l3.6-3.6l3.6,3.6 C16,18.8,16.5,19,17,19s1-0.2,1.4-0.6c0.8-0.8,0.8-2,0-2.8L14.8,12z" />
+            </svg>
+            <ul>
+                <li><a class="hover" href="/index.html">Home</a></li>
+                <li><a class="hover" href="/pages/allRecipes.html">All Recipes</a></li>
+                <li><a class="hover" href="">Ingredients</a></li>
+                <li><a class="hover" href="#">Garnishes</a></li>
+                <li><a class="hover" href="#">Favorites</a></li>
+            </ul>
+        </nav>
+        <main class="container">
+            <div class="scroll-ctnt">
+                <h2 class="title">Welcome</h2>
+                <article class="home-msg">
+                    <p>Tried and true classics for you to enjoy at home.</p>
+                </article>
+                <img class="bounce" src="/images/expand_more_white_60dp.svg" width="90"  alt="Check out our menu"/>
+                <a class="btn btn--svg js-animated-button" href="/pages/allRecipes.html"><span class="btn--svg__label">Check out the menu</span>
+                <svg class="btn--svg__circle" width="170" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60">
+                    <circle class="js-discover-circle" fill="none" cx="30" cy="30" r="28.7"></circle>
+                    </svg>
+                <svg class="btn--svg__border" x="0px" y="0px" preserveaspectratio="none" viewBox="2 29.3 56.9 13.4" enable-background="new 2 29.3 56.9 13.4" width="190">
+                    <g class="btn--svg__border--left js-discover-left-border" id="Calque_2">
+                    <path fill="none" stroke="#ccb674" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9H9c0,0-6.2-0.3-6.2-5.9S9,30.1,9,30.1h21.4"></path>
+                      </g>
+                    <g class="btn--svg__border--right js-discover-right-border" id="Calque_3">
+                    <path fill="none" stroke="#ccb674" stroke-width="0.5" stroke-miterlimit="1" d="M30.4,41.9h21.5c0,0,6.1-0.4,6.1-5.9s-6-5.9-6-5.9H30.4"></path>
+                      </g>
+                </svg></a> 
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy;Krista Marette 2021</p>
+            <div class="footerIcon">
+                <section id="footer-section">
+                  <a href="https://www.facebook.com/krista.marette" onMouseOut="MM_swapImgRestore()"
+                      onMouseOver="MM_swapImage('Image1','','../images/SM_Icons/Facebook 2.png',1)"
+                      target="_blank"><img src="../images/SM_Icons/Facebook.png" alt="facebook logo"
+                        width="30" height="30" id="Image1"></a>
+                      <a href="https://github.com/kristamarette" onMouseOut="MM_swapImgRestore()"
+                      onMouseOver="MM_swapImage('Image2','','../images/SM_Icons/Github 2.png',1)"><img
+                        src="../images/SM_Icons/Github.png" alt="github logo" width="30" height="30"
+                        id="Image2"></a>
+                      <a href="https://www.linkedin.com/in/kristamarette/" onMouseOut="MM_swapImgRestore()"
+                      onMouseOver="MM_swapImage('Image3','','../images/SM_Icons/Linkedin 2.png',1)"><img
+                        src="../images/SM_Icons/Linkedin.png" alt="linkedin logo" width="30" height="30"
+                        id="Image3"></a>
+                      <a href="https://www.instagram.com/surewhatev/" onMouseOut="MM_swapImgRestore()"
+                      onMouseOver="MM_swapImage('Image4','','../images/SM_Icons/Instagram 2.png',1)"><img
+                        src="../images/SM_Icons/Instagram.png" alt="instagram logo" width="30" height="30"
+                        id="Image4"></a>
+                </section>
+            </div>
+        </footer>
+    </div>
+
+    <!-------  Script Files Start Here  ------->
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="js/TextPlugin.min.js"></script>
+    <script src="js/SplitText.min.js"></script>
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/modernizr-3.8.0.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

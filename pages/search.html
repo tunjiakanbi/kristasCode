@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!------- Stylesheets ------->
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="https://use.typekit.net/kzz4wgg.css" />
+
+<title>Classic Cocktails</title>
+</head>
+<body>
+    
+    <div class="app">
+        <!--------- NAVIGATION STARTS HERE-------->
+        <div class="header-bkgd-search"></div>
+        <header class="header-ctnt-search">
+            <span>
+                <a class="magnifyingGlass" href="/pages/search.html"><img id="search" src="/images/search_white_24dp.svg" height="30" alt="search icon"/></a> 
+                <img class="magnifyingGlass" id="menu-btn" src="/images/menu_white_24dp.svg" width="30" alt="menu icon"/>
+            </span>
+                <div id="searcharea">
+                    <input type="search" name="search" id="searchInfo" />
+                    <label for="search">...</label>
+                </div>
+            <h1>Classic Cocktails</h1>
+        </header>
+        <nav id="nav">
+            <svg viewBox="0 0 24 24" id="exit-btn" class="exit">
+                <path id="exit" fill="#fff" d="M14.8,12l3.6-3.6c0.8-0.8,0.8-2,0-2.8c-0.8-0.8-2-0.8-2.8,0L12,9.2L8.4,5.6c-0.8-0.8-2-0.8-2.8,0 c-0.8,0.8-0.8,2,0,2.8L9.2,12l-3.6,3.6c-0.8,0.8-0.8,2,0,2.8C6,18.8,6.5,19,7,19s1-0.2,1.4-0.6l3.6-3.6l3.6,3.6 C16,18.8,16.5,19,17,19s1-0.2,1.4-0.6c0.8-0.8,0.8-2,0-2.8L14.8,12z" />
+            </svg>
+            <ul>
+                <li><a class="hover" href="/index.html">Home</a></li>
+                <li><a class="hover" href="/pages/allRecipes.html">All Recipes</a></li>
+                <li><a class="hover" href="#">Ingredients</a></li>
+                <li><a class="hover" href="#">Garnishes</a></li>
+                <li><a class="hover" href="#">Favorites</a></li>
+            </ul>
+        </nav>
+
+        <main style="margin-top: 20vh" class="container">
+            <h2 style="font-size: 2em;">Search Results</h2>
+            <div id="update" class="scroll-ctnt2"></div>
+        
+
+        </main>
+
+        <footer>
+            <p>&copy;Krista Marette 2021</p>
+            <div class="footerIcon">
+                <section id="footer-section">
+                  <a href="https://www.facebook.com/krista.marette" onMouseOut="MM_swapImgRestore()"
+                      onMouseOver="MM_swapImage('Image1','','../images/SM_Icons/Facebook 2.png',1)"
+                      target="_blank"><img src="../images/SM_Icons/Facebook.png" alt="facebook logo"
+                        width="30" height="30" id="Image1"></a>
+                      <a href="https://github.com/kristamarette" onMouseOut="MM_swapImgRestore()"
+                      onMouseOver="MM_swapImage('Image2','','../images/SM_Icons/Github 2.png',1)"><img
+                        src="../images/SM_Icons/Github.png" alt="github logo" width="30" height="30"
+                        id="Image2"></a>
+                      <a href="https://www.linkedin.com/in/kristamarette/" onMouseOut="MM_swapImgRestore()"
+                      onMouseOver="MM_swapImage('Image3','','../images/SM_Icons/Linkedin 2.png',1)"><img
+                        src="../images/SM_Icons/Linkedin.png" alt="linkedin logo" width="30" height="30"
+                        id="Image3"></a>
+                      <a href="https://www.instagram.com/surewhatev/" onMouseOut="MM_swapImgRestore()"
+                      onMouseOver="MM_swapImage('Image4','','../images/SM_Icons/Instagram 2.png',1)"><img
+                        src="../images/SM_Icons/Instagram.png" alt="instagram logo" width="30" height="30"
+                        id="Image4"></a>
+                </section>
+            </div>
+        </footer>
+
+    </div>
+    
+    <!-------  Script Files Start Here  ------->
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="../js/TextPlugin.min.js"></script>
+    <script src="../js/SplitText.min.js"></script>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/modernizr-3.8.0.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

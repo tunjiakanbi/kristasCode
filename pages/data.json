@@ -1,0 +1,994 @@
+[
+    {"id": 1,
+        "cocktailname": "Choker",
+        "primarySpirit":"Scotch",
+        "recipe":"60mL Scotch, 5mL Demerara Syrup, 3 Dashes Orange Bitters, 10 Drops Absinthe",
+        "secondarySpirit": "Absinthe",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Lemon Rip"
+    },
+    {"id": 2,
+        "cocktailname": "Bijou",
+        "primarySpirit":"Gin",
+        "recipe":"40mL Gin, 25mL Sweet Vermouth, 20mL Green Chartreuse, 1 Dash Orange Bitters",
+        "secondarySpirit": "Green Chartreuse",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon coin"
+    },
+    {"id": 3,
+        "cocktailname": "Corpse Reviver",
+        "primarySpirit":"Cognac",
+        "recipe":"40mL Cognac, 20mL Apple Brandy, 20mL Sweet Vermouth, 2 Dashes Orange Bitters",
+        "secondarySpirit": "Apple Brandy",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "No garnish"
+    },
+    {"id": 4,
+        "cocktailname": "De La Louisiane",
+        "primarySpirit":"Rye Whiskey",
+        "recipe":"60mL Rye Whiskey, 15mL Sweet Vermouth Blend, 10mL Benedictine, 2mL Creole Bitters, 2mL Absinthe",
+        "secondarySpirit": "Sweet Vermouth Blend",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "No garnish"
+    },
+    {"id": 5,
+        "cocktailname": "Aviation",
+        "primarySpirit":"Gin",
+        "recipe":"60mL Gin, 25mL Lemon Juice, 10mL Luxardo Marachino, 3mL Crème de Violette, 5ml Simple Syrup",
+        "secondarySpirit": "Luxardo Marachino",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "No garnish"
+    },
+    {"id": 6,
+        "cocktailname": "Avenue",
+        "primarySpirit":"Bourbon Whiskey",
+        "recipe":"20mL Bourbon, 40mL Apple Brandy, 7 Drops Orange Flower Water, 25mL Lemon Juice, 20mL Passion Fruit Syrup",
+        "secondarySpirit": "Apple Brandy",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "No garnish"
+    },
+    {"id": 7,
+        "cocktailname": "Manhattan",
+        "primarySpirit":"Rye Whiskey",
+        "recipe":"60mL Rye Whiskey, 20mL Sweet Vermouth, 1.5mL Angostura Bitters, 1.5mL Cynar",
+        "secondarySpirit": "Sweet Vermouth",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Orange coin"
+    },
+    {"id": 8,
+        "cocktailname": "Black Manhattan",
+        "primarySpirit":"Rye Whiskey",
+        "recipe":"60mL Rye Whiskey, 20mL Averna, 1 Dash Angostura Bitters, 1 Dash Cynar",
+        "secondarySpirit": "Averna",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange coin"
+    },
+    {"id": 9,
+        "cocktailname": "Penicillin",
+        "primarySpirit":"Scotch",
+        "recipe":"60mL Scotch, 30mL Lemon Juice, 15mL Honey Syrup, 10mL Ginger Syrup",
+        "secondarySpirit": "Scotch",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lemon rip" 
+
+    },
+    {"id": 10,
+        "cocktailname": "Monte Carlo",
+        "primarySpirit":"Rye Whiskey",
+        "recipe":"60mL Rye Whiskey, 12mL Benedictine, 1.5mL Angostura Bitters, 1.5mL Cynar",
+        "secondarySpirit": "Benedictine",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Lemon rip" 
+
+    },
+    {"id": 11,
+        "cocktailname": "Ramos Gin Fizz",
+        "primarySpirit":"Gin",
+        "recipe":"60mL Gin, 15mL Lemon Juice, 15mL Lime Juice, 20mL Heavy Cream, 25mL Simple Syrup, 1 Egg White, 2mL Orange Flower Water",
+        "secondarySpirit": "Gin",
+        "prep": "Shake",
+        "served": "On the rocks",
+        "garnish": "30mL Seltzer Water" 
+
+    },
+    {"id": 12,
+        "cocktailname": "Negroni",
+        "primarySpirit":"Gin",
+        "recipe":"50mL Gin, 30mL Campari, 20mL Sweet Vermouth Blend",
+        "secondarySpirit": "Campari",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 13,
+        "cocktailname": "Margarita",
+        "primarySpirit": "Tequila",
+        "recipe": "50mL Blanco Tequila, 25mL Lime Juice, 25mL Orange Liqueur, 5mL Simple Syrup, 1 Dash Salt Solution",
+        "secondarySpirit": "Orange Liqueur",
+        "prep": "Shake",
+        "served": "On the rocks",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 14,
+        "cocktailname": "Brooklyn",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "50mL Rye Whiskey, 15mL Dry Vermouth, 10mL Luxardo Marachino, 5mL Amaro",
+        "secondarySpirit": "Dry Vermouth",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 15,
+        "cocktailname": "Old Pal",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "50mL Rye Whiskey, 25mL Campari, 25mL Dry Vermouth",
+        "secondarySpirit": "Campari",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 16,
+        "cocktailname": "1776 Old Fashion",
+        "primarySpirit": "Apple Brandy",
+        "recipe": "60mL Apple Brandy, 5mL Simple Syrup, 2 Dashes Orange Bitters, 1 Dash Angostura Bitters",
+        "secondarySpirit": "",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 17,
+        "cocktailname": "Chrysanthemum",
+        "primarySpirit":"Dry Vermouth",
+        "recipe":"70mL Dry Vermouth, 15mL Benedictine, 3mL Absinthe",
+        "secondarySpirit": "Benedictine",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 18,
+        "cocktailname": "Planters Punch",
+        "primarySpirit":"Dark Rum",
+        "recipe":"40mL Dark Rum, 20mL Swedish Punsch, 25mL Lime Juice, 13mL Simple Syrup, Black Tea Float",
+        "secondarySpirit": "Swedish Punsch",
+        "prep": "Swizzle",
+        "served": "Over crushed ice",
+        "garnish": "An Umbrella" 
+
+    },
+    {"id": 19,
+        "cocktailname": "Babu",
+        "primarySpirit":"Barrel-Aged Rum",
+        "recipe":"30mL Barrel-Aged Rum, 30mL Scotch, 20mL Averna, 1 Dash Cynar, 2 Dashes Angostura Bitters",
+        "secondarySpirit": "Scotch",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 20,
+        "cocktailname": "Champs Elysees",
+        "primarySpirit":"Cognac",
+        "recipe":"50mL Cognac, 20mL Lemon Juice, 20mL Green Chartreuse, 10mL Simple Syrup, 1 Dash Angostura, 1 Dash Cynar",
+        "secondarySpirit": "Green Chartreuse",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 21,
+        "cocktailname": "Classic Martini",
+        "primarySpirit":"Gin",
+        "recipe":"60mL Gin, 2mL Orange Bitters, 25mL Dry Vermouth",
+        "secondarySpirit": "Dry Vermouth",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon coin" 
+
+    },
+    {"id": 22,
+        "cocktailname": "Martinez",
+        "primarySpirit":"Barrel-Aged Gin",
+        "recipe":"50mL Barrel-Aged Gin, 30mL Sweet Vermouth, 5mL Luxardo, 2mL Boker’s Bitters",
+        "secondarySpirit": "Sweet Vermouth",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon rip" 
+
+    },
+    {"id": 23,
+        "cocktailname": "French 75",
+        "primarySpirit":"Gin",
+        "recipe":"50mL Gin, 15mL Lemon Juice, 15mL Simple Syrup",
+        "secondarySpirit": "Sparkling Wine",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "90mL Sparkling Wine & Lemon rip" 
+
+    },
+    {"id": 24,
+        "cocktailname": "Sweet Vermouth Blend",
+        "primarySpirit":"Cinzano Sweet Vermouth",
+        "recipe":"Equal parts",
+        "secondarySpirit": "Punt e Mes",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 25,
+        "cocktailname": "Derby",
+        "primarySpirit":"Bourbon",
+        "recipe":"30mL Bourbon, 20mL Orange Liqueur, 5mL Bitter Orange Cordial, 20mL Sweet Vermouth Blend, 8mL Demerara Syrup, 25mL Lemon Juice",
+        "secondarySpirit": "Orange Liqueur",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 26,
+        "cocktailname": "Daquiri",
+        "primarySpirit": "Rum",
+        "recipe": "60mL Rum, 25mL Orange Liqueur, 25mL Lime Juice, 12mL Simple Syrup",
+        "secondarySpirit": "Orange Liqueur",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lime wheel" 
+
+    },
+    {"id": 27,
+        "cocktailname": "Dobbs",
+        "primarySpirit": "Bourbon",
+        "recipe": "60mL Bourbon, 15mL Sweet Vermouth, 5mL Fernet Branca",
+        "secondarySpirit": "Sweet Vermouth",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon rip" 
+
+    },
+    {"id": 28,
+        "cocktailname": "Hanky Panky",
+        "primarySpirit":"Gin",
+        "recipe":"60mL Gin, 20mL Sweet Vermouth, 5mL Fernet Branca",
+        "secondarySpirit": "Fernet Branca",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange coin" 
+
+    },
+    {"id": 29,
+        "cocktailname": "Duplex",
+        "primarySpirit":"Sweet Vermouth",
+        "recipe":"50mL Sweet Vermouth, 40mL Dry Vermouth, 3mL Orange Bitters",
+        "secondarySpirit": "Dry Vermouth",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 30,
+        "cocktailname": "El Presidente",
+        "primarySpirit":"Silver Rum",
+        "recipe":"60mL Silver Rum, 20mL Dry Vermouth, 10mL Mathilde XO Orange, 5mL Grenadine",
+        "secondarySpirit": "Dry Vermouth",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 31,
+        "cocktailname": "Final Ward",
+        "primarySpirit":"Rye Whiskey",
+        "recipe":"30mL Rye Whiskey, 25mL Lemon Juice, 25mL Green Chartreuse, 20mL Luxardo Marachino",
+        "secondarySpirit": "Green Chartreuse",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 32,
+        "cocktailname": "Fitzgerald",
+        "primarySpirit":"Gin",
+        "recipe":"60mL Gin, 30mL Lemon Juice, 20mL Simple Syrup",
+        "secondarySpirit": "Bitters",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "1 dash Angostura Bitters & 1 dash Cynar" 
+
+    },
+    {"id": 33,
+        "cocktailname": "Fog Cutter",
+        "primarySpirit":"Gin",
+        "recipe":"30mL Gin, 15mL Cognac, 15mL Rum, 10mL Oloroso Sherry, 25mL Lemon Juice, 15mL Simple Syrup",
+        "secondarySpirit": "Cognac",
+        "prep": "Shake",
+        "served": "Over crushed ice",
+        "garnish": "An Umbrella" 
+
+    },
+    {"id": 34,
+        "cocktailname": "Ford Cocktail",
+        "primarySpirit": "Barrel-Aged Gin",
+        "recipe": "40mL Barrel Aged Gin, 40mL Dry Vermouth, 2mL Benedictine, 2mL Orange Bitters",
+        "secondarySpirit": "Benedictine",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange coin" 
+
+    },
+    {"id": 35,
+        "cocktailname": "Blood and Sand",
+        "primarySpirit": "Scotch",
+        "recipe": "60mL Scotch, 20mL Sour Cherry Cordial, 15mL Sweet Vermouth Blend, 25mL Orange Juice, 5mL Lemon Juice, 5mL Demerara Syrup",
+        "secondarySpirit": "Sour Cherry Cordial",
+        "prep": "Shake",
+        "served": "On the rocks",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 36,
+        "cocktailname": "Death in the Afternoon",
+        "primarySpirit": "Absinthe",
+        "recipe": "20mL Absinthe",
+        "secondarySpirit": "Sparkling Wine",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "90mL Sparkling Wine & Lemon Expression" 
+
+    },
+    {"id": 37,
+        "cocktailname": "Brandy Crusta",
+        "primarySpirit": "Cognac",
+        "recipe": "60mL Cognac, 25mL Orange Liqueur, 15mL Lemon Juice, 5mL Luxardo Marachino, 8 Dashes Boker’s Bitters",
+        "secondarySpirit": "Orange Liqueur",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Sugar rim" 
+
+    },
+    {"id": 38,
+        "cocktailname": "Have a Heart",
+        "primarySpirit": "Gin",
+        "recipe": "50mL Gin, 25mL Swedish Punsch, 25mL Lime Juice, 10mL Grenadine",
+        "secondarySpirit": "Swedish Punsch",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lime wheel" 
+
+    },
+    {"id": 39,
+        "cocktailname": "Hemingway",
+        "primarySpirit": "Barrel-Aged Rum",
+        "recipe": "60mL Barrel Aged Rum, 20mL Grapefruit Juice, 15mL Lime Juice, 10mL Luxardo Maraschino, 5mL Simple Syrup",
+        "secondarySpirit": "Luxardo Maraschino",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lime wheel" 
+
+    },
+    {"id": 40,
+        "cocktailname": "Queens Park",
+        "primarySpirit": "Silver Rum",
+        "recipe": "50mL Silver Rum, 30mL Dolin Blanc, 25mL Lime Juice, 15mL Grenadine",
+        "secondarySpirit": "Dolin Blanc",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Peychauds Bitters float" 
+
+    },
+    {"id": 41,
+        "cocktailname": "Hoop La!",
+        "primarySpirit": "Cognac",
+        "recipe": "30mL Cognac, 25mL Cocci Americano, 25mL Orange Liqueur, 25mL Lemon Juice",
+        "secondarySpirit": "Cocci Americano",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Absinthe Spritz" 
+
+    },
+    {"id": 42,
+        "cocktailname": "Hurricane",
+        "primarySpirit": "Dark Rum",
+        "recipe": "60mL Dark Rum, 30mL Lemon Juice, 20mL Passion Fruit Syrup",
+        "secondarySpirit": "Rum",
+        "prep": "Shake",
+        "served": "Over crushed ice",
+        "garnish": "An Umbrella" 
+
+    },
+    {"id": 43,
+        "cocktailname": "Improved Cocktail",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "60mL Rye Whiskey, 10mL Luxardo Maraschino, 3mL Absinthe, 3mL Boker’s Bitters, 2mL Simple Syrup",
+        "secondarySpirit": "Luxardo Maraschino",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Lemon rip" 
+
+    },
+    {"id": 44,
+        "cocktailname": "Island Martinique",
+        "primarySpirit": "Rhum Agricole",
+        "recipe": "60mL Rhum Agricole, 25mL Lime Juice, 25mL Honey",
+        "secondarySpirit": "Rhum Agricole",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lime wheel" 
+
+    },
+    {"id": 45,
+        "cocktailname": "Jack Rose",
+        "primarySpirit": "Apple Brandy",
+        "recipe": "60mL Apple Brandy, 25mL Lemon Juice, 5mL Simple Syrup, 10mL Grenadine",
+        "secondarySpirit": "Apple Brandy",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lemon wheel" 
+
+    },
+    {"id": 46,
+        "cocktailname": "Jasmine",
+        "primarySpirit": "Gin",
+        "recipe": "50mL Gin, 20mL Campari, 20mL Orange Liqueur, 20mL Lemon Juice, 5mL Simple Syrup",
+        "secondarySpirit": "Campari",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Grapefruit rip" 
+
+    },
+    {"id": 47,
+        "cocktailname": "Knickerbocker",
+        "primarySpirit": "Barrel-Aged Rum",
+        "recipe": "60mL Barrel Aged Rum, 25mL Lime Juice, 18mL Raspberry Syrup, 10mL Mathilde XO Orange",
+        "secondarySpirit": "Mathilde XO Orange",
+        "prep": "Swizzle",
+        "served": "Over crushed ice",
+        "garnish": "An Umbrella" 
+
+    },
+    {"id": 48,
+        "cocktailname": "Last Word",
+        "primarySpirit": "Gin",
+        "recipe": "30mL Gin, 25mL Lime Juice, 25mL Green Chartreuse, 20mL Luxardo Maraschino",
+        "secondarySpirit": "Green Chartreuse",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 49,
+        "cocktailname": "Leave-It-To-Me",
+        "primarySpirit": "Gin",
+        "recipe": "60mL Gin, 25mL Lemon Juice, 10mL Raspberry Syrup, 10mL Luxardo Maraschino",
+        "secondarySpirit": "Luxardo Maraschino",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lemon wheel" 
+
+    },
+    {"id": 50,
+        "cocktailname": "Lions Tail",
+        "primarySpirit": "Bourbon",
+        "recipe": "60mL Bourbon, 25mL Lime Juice, 10mL Demerara Syrup, 10mL Allspice Dram",
+        "secondarySpirit": "Allspice Dram",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 51,
+        "cocktailname": "Mai Tai",
+        "primarySpirit": "Dark Rum",
+        "recipe": "30mL Dark Rum, 30mL Barrel-Aged Rum, 20mL Lime Juice, 20mL Orgeat, 15mL Orange Liqueur",
+        "secondarySpirit": "Barrel-Aged Rum",
+        "prep": "Shake",
+        "served": "Over crushed ice",
+        "garnish": "Mint sprigs" 
+
+    },
+    {"id": 52,
+        "cocktailname": "Blinker",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "60mL Rye Whiskey, 30mL Grapefruit Juice, 15mL Lemon Juice, 15mL Raspberry Syrup",
+        "secondarySpirit": "Rye Whiskey",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Grapefruit rip" 
+
+    },
+    {"id": 53,
+        "cocktailname": "Boulevardier",
+        "primarySpirit": "Bourbon",
+        "recipe": "50mL Bourbon, 25mL Campari, 20mL Sweet Vermouth Blend",
+        "secondarySpirit": "Campari",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Orange coin" 
+
+    },
+    {"id": 54,
+        "cocktailname": "Gimlet",
+        "primarySpirit": "Gin",
+        "recipe": "60mL Gin, 25mL Lime Juice, 12mL Simple Syrup",
+        "secondarySpirit": "Gin",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lime wheel" 
+
+    },
+    {"id": 55,
+        "cocktailname": "Gold Rush",
+        "primarySpirit": "Bourbon",
+        "recipe": "60mL Bourbon, 25mL Lemon Juice, 20mL Honey",
+        "secondarySpirit": "Bourbon",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lemon wheel" 
+
+    },
+    {"id": 56,
+        "cocktailname": "Between the Sheets",
+        "primarySpirit": "Silver Rum",
+        "recipe": "30mL Silver Rum, 30mL Cognac, 25mL Orange Liqueur, 25mL Lemon Juice, 10mL Simple Syrup",
+        "secondarySpirit": "Cognac",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lemon wheel" 
+
+    },
+    {"id": 57,
+        "cocktailname": "Pisco Sour",
+        "primarySpirit": "Pisco",
+        "recipe": "60mL Pisco, 15mL Lemon Juice, 15mL Lime Juice, 20mL Simple Syrup, 1 Egg White",
+        "secondarySpirit": "Angostura Bitters",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "1 dash of Angostura Bitters" 
+
+    },
+    {"id": 58,
+        "cocktailname": "Remember the Maine",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "50mL Rye Whiskey, 15mL Sweet Vermouth Blend, 10mL Sour Cherry Cordial, 3 Dashes Absinthe",
+        "secondarySpirit": "Sweet Vermouth",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Two Griottines" 
+
+    },
+    {"id": 59,
+        "cocktailname": "Reverse Manhattan",
+        "primarySpirit": "Sweet Vermouth",
+        "recipe": "30mL Rye Whiskey, 50mL Sweet Vermouth Blend, 1mL Cynar, 1mL Angostura Bitters",
+        "secondarySpirit": "Rye Whiskey",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange coin" 
+
+    },
+    {"id": 60,
+        "cocktailname": "Rob Roy",
+        "primarySpirit": "Scotch",
+        "recipe": "60mL Scotch, 20mL Sweet Vermouth, 1mL Cynar, 1mL Angostura Bitters",
+        "secondarySpirit": "Sweet Vermouth",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 61,
+        "cocktailname": "Sazerac",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "60mL Rye, 5mL Demerara Syrup, 3 Dashes Creole Bitters, 3 Dashes Absinthe",
+        "secondarySpirit": "Absinthe",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon expression" 
+
+    },
+    {"id": 62,
+        "cocktailname": "Sazerac Halfy",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "30mL Rye Whiskey, 30mL Brandy, 5mL Demerara Syrup, 3 Dashes Creole Bitters, 2 Dashes Orange Bitters, 3 Dashes Absinthe",
+        "secondarySpirit": "Brandy",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon expression" 
+
+    },
+    {"id": 63,
+        "cocktailname": "Scofflaw",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "60mL Rye Whiskey, 20mL Dry Vermouth, 25mL Lemon Juice, 17mL Grenadine",
+        "secondarySpirit": "Dry Vermouth",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Orange coin" 
+
+    },
+    {"id": 64,
+        "cocktailname": "Sidecar",
+        "primarySpirit": "Cognac",
+        "recipe": "50mL Cognac, 25mL Orange Liqueur, 25mL Lemon Juice, 5mL Simple Syrup",
+        "secondarySpirit": "Orange Liqueur",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Orange expression" 
+
+    },
+    {"id": 65,
+        "cocktailname": "Singapore Fling",
+        "primarySpirit": "Gin",
+        "recipe": "20mL Gin, 20mL Lime Juice, 20mL Benedictine, 20mL Sour Cherry Cordial, 5mL Simple Syrup",
+        "secondarySpirit": "Benedictine",
+        "prep": "Shake",
+        "served": "On the rocks",
+        "garnish": "90mL Selzter Water" 
+
+    },
+    {"id": 66,
+        "cocktailname": "Tom Collins",
+        "primarySpirit": "Barrel-Aged Gin",
+        "recipe": "60mL Barrel-Aged Gin, 30mL Lemon Juice, 20mL Simple Syrup",
+        "secondarySpirit": "Gin",
+        "prep": "Shake",
+        "served": "On the rocks",
+        "garnish": "90mL Seltzer Water" 
+
+    },
+    {"id": 67,
+        "cocktailname": "Toronto Cocktail",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "60mL Rye Whiskey, 5mL Fernet Branca, 5mL Demerara Syrup",
+        "secondarySpirit": "Fernet Branca",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon rip" 
+
+    },
+    {"id": 68,
+        "cocktailname": "Modern Cocktail",
+        "primarySpirit": "Scotch",
+        "recipe": "60mL Scotch, 15mL Barrel Aged Rum, 5mL Demerara Syrup",
+        "secondarySpirit": "Barrel-Aged Rum",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Absinthe Spritz & Lemon Expression" 
+
+    },
+    {"id": 69,
+        "cocktailname": "Andrew's Benevolent Chamber Pot",
+        "primarySpirit": "Aquavit",
+        "recipe": "40mL Aquavit, 20mL Barrel Aged Gin, 20mL Campari, 20mL Sweet Vermouth Blend, 5mL Swedish Punsch, 2 Dashes Creole Bitters",
+        "secondarySpirit": "Gin",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Grapefruit rip" 
+
+    },
+    {"id": 70,
+        "cocktailname": "Ian Blowther",
+        "primarySpirit": "Rum",
+        "recipe": "60mL Stiggins Fancy Plantation Rum, 30mL Lemon Juice, 17mL Simple Syrup",
+        "secondarySpirit": "Rum",
+        "prep": "Shake",
+        "served": "On the rocks",
+        "garnish": "90mL Selzter" 
+
+    },
+
+    {"id": 71,
+        "cocktailname": "Night-Night Batch",
+        "primarySpirit": "Angostura Bitters",
+        "recipe": "250mL Angostura Bitters, 250mL Barrel Aged Rum, 200mL Green Chartreuse, 50mL Demerara Syrup",
+        "secondarySpirit": "Barrel-Aged Rum",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "60mL & Lemon rip" 
+
+    },
+    {"id": 72,
+        "cocktailname": "Roger Dodger",
+        "primarySpirit": "Absinthe",
+        "recipe": "50mL Absinthe, 25mL Lime Juice, 10mL Simple Syrup",
+        "secondarySpirit": "Absinthe",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 73,
+        "cocktailname": "Anne’s Bumblyback Cumberbutt",
+        "primarySpirit": "Sherry",
+        "recipe": "40mL Oloroso Sherry, 20mL Pisco, 15mL Campari, 15mL Sweet Vermouth",
+        "secondarySpirit": "Pisco",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 74,
+        "cocktailname": "Sam’s Rumberblack Tatternar",
+        "primarySpirit": "Barrel-Aged Rum",
+        "recipe": "50mL Barrel Aged Rum, 20mL Cynar, 20mL Amontillado Sherry, 6mL Amaro",
+        "secondarySpirit": "Cynar",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange rip" 
+
+    },
+    {"id": 75,
+        "cocktailname": "Scott’s Benicio Thunderbuns",
+        "primarySpirit": "Tequila",
+        "recipe": "45mL Silver Tequila, 25mL Averna, 15mL Punt e Mes, 15mL Mezcal, 1 Dash Chocolate Bitters",
+        "secondarySpirit": "Averna",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange coin" 
+
+    },
+    {"id": 76,
+        "cocktailname": "Adonis",
+        "primarySpirit": "Sherry",
+        "recipe": "30mL Oloroso Sherry, 30mL Amontillado Sherry, 40mL Sweet Vermouth, 2mL Orange Bitters",
+        "secondarySpirit": "Sherry",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange coin" 
+
+    },
+    {"id": 77,
+        "cocktailname": "Airmail",
+        "primarySpirit": "Barrel-Aged Rum",
+        "recipe": "50mL Barrel-Aged Rum, 15mL Lime Juice, 15mL Honey",
+        "secondarySpirit": "Sparkling Wine",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "90mL Sparkling Wine & Lemon rip" 
+
+    },
+    {"id": 78,
+        "cocktailname": "Americano",
+        "primarySpirit": "Campari",
+        "recipe": "30mL Campari, 30mL Sweet Vermouth",
+        "secondarySpirit": "Sweet Vermouth",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "90mL Seltzer Water" 
+
+    },
+    {"id": 79,
+        "cocktailname": "New York Sour",
+        "primarySpirit": "Bourbon",
+        "recipe": "30mL Bourbon, 30mL Rye Whiskey, 30mL Lemon Juice, 18mL Simple Syrup",
+        "secondarySpirit": "Rye Whiskey",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Red Wine Float" 
+
+    },
+    {"id": 80,
+        "cocktailname": "White Lady",
+        "primarySpirit": "Gin",
+        "recipe": "50mL Gin, 25mL Orange Liqueur, 25mL Lemon Juice, 5mL Simple Syrup, Optional: 1 Egg White",
+        "secondarySpirit": "Orange Liqueur",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lemon wheel" 
+
+    },
+    {"id": 81,
+        "cocktailname": "White Russian",
+        "primarySpirit": "Averna",
+        "recipe": "30mL Averna, 10mL Vodka, 10mL Dark Rum, 10mL Licor 43, 1.5 Dash Angostura Bitters, 1.5 Dash Cynar, 3mL Demerara Syrup, 20mL Heavy Cream",
+        "secondarySpirit": "Vodka",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Two filberts" 
+
+    },
+
+    {"id": 82,
+        "cocktailname": "Widows Kiss",
+        "primarySpirit": "Apple Brandy",
+        "recipe": "60mL Apple Brandy, 10mL Benedictine, 10mL Yellow Chartreuse, 1mL Angostura Bitters, 1mL Cynar",
+        "secondarySpirit": "Yellow Chartreuse",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon rip" 
+
+    }, 
+    
+    {"id": 83,
+        "cocktailname": "Xanthia",
+        "primarySpirit": "Gin",
+        "recipe": "40mL Gin, 20mL Yellow Chartreuse, 20mL Sour Cherry Cordial",
+        "secondarySpirit": "Yellow Chartreuse",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon rip" 
+
+    },
+    {"id": 84,
+        "cocktailname": "Tuxedo",
+        "primarySpirit": "Gin",
+        "recipe": "60mL Gin, 20mL Dry Vermouth, 9mL Luxardo Marachino, 3 Dashes Orange Bitters",
+        "secondarySpirit": "Luxardo Maraschino",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Absinthe Spritz & Lemon coin" 
+
+    },
+    {"id": 85,
+        "cocktailname": "Boston Sour",
+        "primarySpirit": "Bourbon",
+        "recipe": "30mL Bourbon, 30mL Rye Whiskey, 30mL Lemon Juice, 20mL Simple Syrup, 1 Egg White",
+        "secondarySpirit": "Rye Whiskey",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "1 Dash of Angostura Bitters" 
+
+    },
+    {"id": 86,
+        "cocktailname": "Ward Eight",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "60mL Rye Whiskey, 20mL Lemon Juice, 20mL Orange Juice, 15mL Grenadine",
+        "secondarySpirit": "Whiskey",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 87,
+        "cocktailname": "Waldorf",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "50mL Rye Whiskey, 30mL Sweet Vermouth, 6 Dashes Absinthe, 2 Dashes Cynar, 3 Dashes Angostura Bitters",
+        "secondarySpirit": "Sweet Vermouth",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "No garnish" 
+
+    },
+    {"id": 88,
+        "cocktailname": "Old Fashion",
+        "primarySpirit": "Bourbon",
+        "recipe": "60mL Bourbon, 5mL Demerara Syrup, 2 Dashes Cynar, 3 Dashes Angostura Bitters",
+        "secondarySpirit": "Rye Whiskey",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Orange coin" 
+
+    },
+    {"id": 89,
+        "cocktailname": "Vieux Carre",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "25mL Rye Whiskey, 25mL Cognac, 20mL Sweet Vermouth, 5mL Benedictine, 3 Dashes Peychauds, 3 Dashes Orange Bitters",
+        "secondarySpirit": "Cognac",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon rip" 
+
+    },
+    {"id": 90,
+        "cocktailname": "Vesper",
+        "primarySpirit": "Vodka",
+        "recipe": "40mL Vodka, 20mL Gin, 20mL Cocci Americano, 2mL Orange Bitters",
+        "secondarySpirit": "Gin",
+        "prep": "Stir",
+        "served": "Up",
+        "garnish": "Lemon rip" 
+
+    },
+    {"id": 91,
+        "cocktailname": "Vermouth Gimlet",
+        "primarySpirit": "Dry Vermouth",
+        "recipe": "70mL Dry Vermouth, 25mL Lime Juice, 13mL Simple Syrup",
+        "secondarySpirit": "Dry Vermouth",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lime wheel" 
+
+    },
+    {"id": 92,
+        "cocktailname": "RB Yacht Club",
+        "primarySpirit": "Barrel-Aged Rum",
+        "recipe": "60mL Barre-Aged Rum, 25mL Lime Juice, 15mL Falernum, 10mL Orange Liqueur, 5mL Ginger Syrup",
+        "secondarySpirit": "Falernum",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lime wheel" 
+
+    },
+    {"id": 93,
+        "cocktailname": "20th Century",
+        "primarySpirit": "Gin",
+        "recipe": "45mL Gin, 25mL Creme de Cacao, 25mL Lillet Blanc, 15mL Lemon Juice",
+        "secondarySpirit": "Lillet Blanc",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lemon coin" 
+
+    },
+    {"id": 94,
+        "cocktailname": "Bee's Knees",
+        "primarySpirit": "Bourbon",
+        "recipe": "60mL Bourbon, 25mL Lemon Juice, 20mL Honey",
+        "secondarySpirit": "Whiskey",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lemon wheel" 
+
+    },
+    {"id": 95,
+        "cocktailname": "Trinidad Sour",
+        "primarySpirit": "Angostura Bitters",
+        "recipe": "45mL Angostura Bitters, 15mL Rye Whiskey, 30mL Orgeat, 25mL Lemon Juice",
+        "secondarySpirit": "Rye Whiskey",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Lemon Coin" 
+
+    },
+    {"id": 96,
+        "cocktailname": "Red Hook",
+        "primarySpirit": "Rye Whiskey",
+        "recipe": "60mL Rye Whiskey, 25mL Sweet Vermouth Blend, 10mL Luxardo Marachino",
+        "secondarySpirit": "",
+        "prep": "Stir",
+        "served": "On the rocks",
+        "garnish": "Two Griottines" 
+
+    }, {"id": 97,
+        "cocktailname": "Mojito",
+        "primarySpirit": "Rum",
+        "recipe": "50mL White Rum, 25mL Lime Juice, 5mL Simple Syrup, 6 Mint Leaves",
+        "secondarySpirit": "White Rum",
+        "prep": "Shake",
+        "served": "On the rocks",
+        "garnish": "90mL Seltzer Water & 1 dash Angostura Bitters" 
+
+    }, {"id": 98,
+        "cocktailname": "Caipirinha",
+        "primarySpirit": "Cachaca",
+        "recipe": "50mL Cachaca, 40mL Lime Juice, 15mL Simple Syrup",
+        "secondarySpirit": "Cachaca",
+        "prep": "Shake",
+        "served": "On the rocks",
+        "garnish": "Lime wheel" 
+
+    }, {"id": 99,
+        "cocktailname": "Corpse Reviver 2",
+        "primarySpirit": "Gin",
+        "recipe": "30mL Gin, 30mL Orange Liqueur, 30mL Lillet Blanc, 23mL Lemon Juice",
+        "secondarySpirit": "Lillet Blanc",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "Absinthe spritz" 
+
+    }, {"id": 100,
+        "cocktailname": "The Clover Club",
+        "primarySpirit": "Gin",
+        "recipe": "60ml Gin, 15mL Lemon Juice, 15mL Raspberry Syrup, 1 Egg White",
+        "secondarySpirit": "Gin",
+        "prep": "Shake",
+        "served": "Up",
+        "garnish": "3 raspberries" 
+
+    }
+
+]
