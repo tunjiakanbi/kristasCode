@@ -62,7 +62,7 @@ body {
   margin-right: auto;
   width: 412px;
   height: 100vh;
-  background-image: url(/images/ArtDeco_Backgroundv2.svg);
+  background-image: url('/images/ArtDeco_Backgroundv2.svg');
    background-color: linear-gradient($color4, #759fd1, $color4);
   border-radius: 20px;
   overflow: hidden;
@@ -96,7 +96,7 @@ h1 {
   position: relative;
   color: $color4;
   width: 300px;
-  font-family: casablanca-urw, sans-serif;
+  font-family: 'casablanca-urw', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 3em;
@@ -132,7 +132,7 @@ main.container {
   height: 79vh;
   color: $color1;
   width: 300px;
-  font-family: casablanca-urw, sans-serif;
+  font-family: 'casablanca-urw', sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1em;
